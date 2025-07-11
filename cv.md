@@ -1,4 +1,3 @@
-# []()
 # Misha Doronina
 ![Profile picture](img/me.PNG)
 ## Contacts
