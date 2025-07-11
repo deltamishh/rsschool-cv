@@ -8,7 +8,7 @@
 * Telegram: deltamish
 ## About myself
 I have always loved the idea of integrating my interest in English and desire to create something visible with my own hands into my job. Along with my motivation to understand the reasons behind mistakes in any particular task, this was a key reason why i chose Frontend and JavaScript developing.
-My perseverance and lidership skills are my key strengths. I enjoy discovering something new and upgading my skills.
+My perseverance and lidership skills are my key strengths. I enjoy discovering something new and improving my skills.
 ## Skills
 * HTML basics
 * CSS basics
