@@ -1,5 +1,6 @@
 # []()
 # Misha Doronina
+![Profile picture](img/me.PNG)
 ## Contacts
 * Phone: +7(999)112-32-20
 * E-mail: mishadoronina@gmail.com
