@@ -86,12 +86,12 @@ li a {
 }
 
 li a:hover {
-    color: rgb(207, 240, 254);
+    color: rgb(233, 247, 253);
 }
 
 nav {
     width: 100%;
-    background-color: rgb(132, 3, 3, 1);
+    background-color: rgb(117, 6, 4);
 }
 
 .nav-ul {
