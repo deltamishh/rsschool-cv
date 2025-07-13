@@ -24,6 +24,8 @@ function boolToWord( bool ){
   }
 }
 ```
+## My projects
+This [CV](https://github.com/deltamishh/rsschool-cv/tree/rsschool-cv-html) is my first project.
 ## Education
 * State Academic University for the Humanities, Management, bachelor
 * HTML Academy (in progress)
