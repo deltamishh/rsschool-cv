@@ -11,96 +11,102 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#contacts">Contacts</a>
-                </li>
-                <li>
-                    <a href="#brief">About myself</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#code">Code exaple</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#english">English</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <h1>Misha Doronina</h1>
-    <main>
-        <img src="img/me.PNG">
-        <section id="contacts">
-            <h2>Contacts</h2>
-            <ul>
-                <li>Phone: +7(999)112-32-20</li>
-                <li>E-mail: mishadoronina@gmail.com</li>
-                <li>Discord username (RS School server): delta (@deltamishh)</li>
-                <li>Telegram: deltamish</li>
-            </ul>
-        </section>
-        <section id="brief">
-            <h2>About myself</h2>
-            <p>I have always loved the idea of integrating my interest in English and desire to create something visible with my own hands into my job. Along with my motivation to understand the reasons behind mistakes in any particular task, this was a key reason why i chose Frontend and JavaScript developing.
-My perseverance and lidership skills are my key strengths. I enjoy discovering something new and improving my skills.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>HTML basics</ul>
-            <ul>CSS basics</ul>
-            <ul>VS code</ul>
-        </section>
-        <section id="code">
-            <h2>Code example</h2>
-            <p>Task from <a href="https://www.codewars.com/">codewars.com</a>: <b>Convert boolean values to strings ‘Yes’ or ‘No’.</b>
-            </p>
-            <pre><code>
-                function boolToWord( bool ){
-                    if (bool === true) {
-                      return "Yes";
-                    } else {
-                      return "No";
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <ul class="nav-ul">
+                    <li class="nav-item">
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#brief">About myself</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code">Code exaple</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#english">English</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="top">
+            <img src="img/me.PNG" alt="profile picture">
+            <div>
+                <h1>Misha Doronina</h1>
+                <h2>Junior Frontend Developer</h2>
+            </div>
+        </div>
+        <main>
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Phone: +7(999)112-32-20</li>
+                    <li>E-mail: mishadoronina@gmail.com</li>
+                    <li>Discord username (RS School server): delta (@deltamishh)</li>
+                    <li>Telegram: deltamish</li>
+                </ul>
+            </section>
+            <section id="brief">
+                <h2>About myself</h2>
+                <p>I have always loved the idea of integrating my interest in English and desire to create something visible with my own hands into my job. Along with my motivation to understand the reasons behind mistakes in any particular task, this was a key reason why i chose Frontend and JavaScript developing.
+    My perseverance and lidership skills are my key strengths. I enjoy discovering something new and improving my skills.</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>HTML basics</ul>
+                <ul>CSS basics</ul>
+                <ul>VS code</ul>
+            </section>
+            <section id="code">
+                <h2>Code example</h2>
+                <p>Task from <a href="https://www.codewars.com/">codewars.com</a>: <b>Convert boolean values to strings ‘Yes’ or ‘No’.</b></p>
+                <pre><code>
+                    function boolToWord( bool ){
+                        if (bool === true) {
+                        return "Yes";
+                        } else {
+                        return "No";
+                        }
                     }
-                }
-            </code></pre>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>State Academic University for the Humanities, Management, bachelor</li>
-                <li>HTML Academy (in progress)</li>
-                <li>RS School Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h2>My projects</h2>
-            <p>This CV is my first project</p>
-        </section>
-        <section id="English">
-            <h2>English</h2>
-            <ul>
-                <li>Intermediate (B1)</li>
-                <li>I have practiced English while travelling abroad and have improved it communicating with native speakers in informal situations.</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <a href="https://github.com/deltamishh">github</a>
-        <span>2025</span>
-        <a href="https://rs.school/courses/javascript-ru">
-            <img src="img/rsschool-logo.svg" alt="RS School">
-        </a>
-    </footer>
+                </code></pre>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>State Academic University for the Humanities, Management, bachelor</li>
+                    <li>HTML Academy (in progress)</li>
+                    <li>RS School Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>My projects</h2>
+                <p>This CV is my first project</p>
+            </section>
+            <section id="English">
+                <h2>English</h2>
+                <ul>
+                    <li>Intermediate (B1)</li>
+                    <li>I have practiced English while travelling abroad and have improved it communicating with native speakers in informal situations.</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <a href="https://github.com/deltamishh">github</a>
+            <span>2025</span>
+            <a href="https://rs.school/courses/javascript-ru">
+                <img src="img/rsschool-logo.svg" alt="RS School">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
